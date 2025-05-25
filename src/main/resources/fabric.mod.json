@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "fantastic_worlds",
+  "version": "${version}",
+  "name": "Fantastic Worlds",
+  "description": "A small mod to boost your crafting-experience. Allows you to craft logs into chests, sticks, slabs, stairs, doors and trapdoors, saving you time.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fantastic_worlds/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "mod.rat_pack_studios.fantastic_worlds.client.FantasticWorldsDataGenerator"
+    ],
+    "client": [
+      "mod.rat_pack_studios.fantastic_worlds.client.FantasticWorldsClient"
+    ],
+    "main": [
+      "mod.rat_pack_studios.fantastic_worlds.FantasticWorlds"
+    ]
+  },
+  "mixins": [
+    "fantastic_worlds.mixins.json",
+    {
+      "config": "fantastic_worlds.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
