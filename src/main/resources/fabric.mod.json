@@ -3,8 +3,8 @@
   "id": "fantastic_worlds",
   "version": "${version}",
   "name": "Fantastic Worlds",
-  "description": "A small mod to boost your crafting-experience. Allows you to craft logs into chests, sticks, slabs, stairs, doors and trapdoors, saving you time.",
-  "authors": [],
+  "description": "",
+  "authors": ["RAT Pack Studios"],
   "contact": {},
   "license": "MIT",
   "icon": "assets/fantastic_worlds/icon.png",
@@ -28,8 +28,8 @@
     }
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": "0.16.14",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "1.21.5"
   }
 }
