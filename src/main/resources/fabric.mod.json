@@ -3,7 +3,7 @@
   "id": "fantastic_worlds",
   "version": "${version}",
   "name": "Fantastic Worlds",
-  "description": "",
+  "description": "A mod all about improving your Minecraft-Experience.\nTweaking your worldgeneration and increasing your worldheight to -128 and 512.",
   "authors": ["RAT Pack Studios"],
   "contact": {},
   "license": "MIT",
