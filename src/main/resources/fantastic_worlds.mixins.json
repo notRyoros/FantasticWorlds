@@ -4,7 +4,8 @@
   "package": "mod.rat_pack_studios.fantastic_worlds.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "FeatureFlagsMixin"
+    "FeatureFlagsMixin",
+    "NoiseBasedChunkGeneratorMixin"
   ],
   "injectors": {
     "defaultRequire": 1
