@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:mul",
+    "argument1": 4.0,
+    "argument2": {
+      "type": "minecraft:quarter_negative",
+      "argument": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:add",
+          "argument1": "fantastic_worlds:fantastic_overworld/depth",
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": "fantastic_worlds:fantastic_overworld/jaggedness",
+            "argument2": {
+              "type": "minecraft:half_negative",
+              "argument": {
+                "type": "minecraft:noise",
+                "noise": "minecraft:jagged",
+                "xz_scale": 1000.0,
+                "y_scale": 0.0
+              }
+            }
+          }
+        },
+        "argument2": "fantastic_worlds:fantastic_overworld/factor"
+      }
+    }
+  },
+  "argument2": "fantastic_worlds:fantastic_overworld/base_3d_noise"
+}

@@ -4,6 +4,7 @@
   "version": "${version}",
   "name": "Fantastic Worlds",
   "description": "A mod all about improving your Minecraft-Experience.\nTweaking your worldgeneration and increasing your worldheight to -128 and 512.",
+  "accessWidener": "fantastic_worlds.accesswidener",
   "authors": ["RAT Pack Studios"],
   "contact": {},
   "license": "MIT",
