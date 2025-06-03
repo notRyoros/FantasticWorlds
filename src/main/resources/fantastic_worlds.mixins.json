@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "mod.rat_pack_studios.fantastic_worlds.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "LavaLevelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
