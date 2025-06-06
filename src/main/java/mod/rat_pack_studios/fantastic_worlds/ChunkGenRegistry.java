@@ -6,6 +6,7 @@ import mod.rat_pack_studios.fantastic_worlds.world.chunkgen.FantasticWorldsChunk
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraftforge.registries.DeferredRegister;
 
 
 public class ChunkGenRegistry

@@ -26,14 +26,12 @@ public class NoiseBasedChunkGeneratorMixin {
     @Shadow @Final public static MapCodec<NoiseBasedChunkGenerator> CODEC;
 
     @Inject(method = "createFluidPicker", at = @At("TAIL"), cancellable = true)
-    private static void overwriteCreateFluidPicker(NoiseGeneratorSettings noiseGeneratorSettings, CallbackInfoReturnable<Aquifer.FluidPicker> cir)
+    private static void overwriteCreateFluidPicker(NoiseGeneratorSettings p_249264_, CallbackInfoReturnable<Aquifer.FluidPicker> cir)
     {
-        Aquifer.FluidStatus fluidStatus = new Aquifer.FluidStatus(-118, Blocks.LAVA.defaultBlockState());
-        int i = noiseGeneratorSettings.seaLevel();
-        Aquifer.FluidStatus fluidStatus2 = new Aquifer.FluidStatus(i, noiseGeneratorSettings.defaultFluid());
-        Aquifer.FluidStatus fluidStatus3 = new Aquifer.FluidStatus(DimensionType.MIN_Y * 2, Blocks.AIR.defaultBlockState());
-        cir.setReturnValue((j, k, l) -> {
-            return k < Math.min(-118, i) ? fluidStatus : fluidStatus2;
-        });
+        Aquifer.FluidStatus aquifer$fluidstatus = new Aquifer.FluidStatus(-118, Blocks.LAVA.defaultBlockState());
+        int i = p_249264_.seaLevel();
+        Aquifer.FluidStatus aquifer$fluidstatus1 = new Aquifer.FluidStatus(i, p_249264_.defaultFluid());
+        Aquifer.FluidStatus aquifer$fluidstatus2 = new Aquifer.FluidStatus(DimensionType.MIN_Y * 2, Blocks.AIR.defaultBlockState());
+        cir.setReturnValue((p_224274_, p_224275_, p_224276_) -> p_224275_ < Math.min(-118, i) ? aquifer$fluidstatus : aquifer$fluidstatus1);
     }
 }

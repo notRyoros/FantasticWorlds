@@ -4,12 +4,11 @@ import mod.rat_pack_studios.fantastic_worlds.WorldPresetKeys;
 import mod.rat_pack_studios.fantastic_worlds.world.chunkgen.FantasticWorldsChunkGenEnd;
 import mod.rat_pack_studios.fantastic_worlds.world.chunkgen.FantasticWorldsChunkGenNether;
 import mod.rat_pack_studios.fantastic_worlds.world.chunkgen.FantasticWorldsChunkGenOverworld;
+
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderGetter;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
-import net.minecraft.world.flag.FeatureFlag;
-import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.level.biome.*;
 import net.minecraft.world.level.chunk.ChunkGenerator;
 import net.minecraft.world.level.dimension.BuiltinDimensionTypes;
@@ -33,7 +32,7 @@ public abstract class FantasticWorldsPresets
     @Shadow @Final
     private BootstrapContext<WorldPreset> context;
 
-    @Shadow protected abstract LevelStem makeOverworld(ChunkGenerator chunkGenerator);
+    @Shadow protected abstract LevelStem makeOverworld(ChunkGenerator p_273133_);
 
     @Shadow @Final private HolderGetter<Biome> biomes;
 
@@ -42,7 +41,7 @@ public abstract class FantasticWorldsPresets
     @Shadow @Final private HolderGetter<MultiNoiseBiomeSourceParameterList> multiNoiseBiomeSourceParameterLists;
 
     @Inject(method = "registerOverworlds", at = @At("TAIL"))
-    private void addFantasticWorldPreset(BiomeSource biomeSource, CallbackInfo ci){
+    private void addFantasticWorldPreset(BiomeSource p_273133_, CallbackInfo ci){
 
         HolderGetter<DimensionType> dimensionLookup = this.context.lookup(Registries.DIMENSION_TYPE);
         Holder<DimensionType> netherType = dimensionLookup.getOrThrow(BuiltinDimensionTypes.NETHER);
@@ -55,11 +54,10 @@ public abstract class FantasticWorldsPresets
 
         Holder.Reference<MultiNoiseBiomeSourceParameterList> netherBiomeSource = this.multiNoiseBiomeSourceParameterLists.getOrThrow(MultiNoiseBiomeSourceParameterLists.NETHER);
 
-        LevelStem overworldOptions = this.makeOverworld(new FantasticWorldsChunkGenOverworld(biomeSource, overworldSettings));
+        LevelStem overworldOptions = this.makeOverworld(new FantasticWorldsChunkGenOverworld(p_273133_, overworldSettings));
         LevelStem netherOptions = new LevelStem(netherType, new FantasticWorldsChunkGenNether(MultiNoiseBiomeSource.createFromPreset(netherBiomeSource), netherSettings));
         LevelStem endOptions = new LevelStem(endType, new FantasticWorldsChunkGenEnd(TheEndBiomeSource.create(this.biomes), endSettings));
 
         this.context.register(WorldPresetKeys.FANTASTIC_OVERWORLD, new WorldPreset(Map.of(LevelStem.OVERWORLD, overworldOptions, LevelStem.NETHER, netherOptions, LevelStem.END, endOptions)));
     }
-
 }
