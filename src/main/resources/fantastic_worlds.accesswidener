@@ -5,3 +5,6 @@ accessible class net/minecraft/world/level/levelgen/presets/WorldPresets$Bootstr
 extendable class net/minecraft/world/level/levelgen/NoiseBasedChunkGenerator
 accessible field net/minecraft/world/level/chunk/ChunkGenerator generationSettingsGetter Ljava/util/function/Function;
 accessible method net/minecraft/world/level/chunk/ChunkGenerator getWritableArea (Lnet/minecraft/world/level/chunk/ChunkAccess;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;
+
+
+accessible field net/minecraft/world/level/levelgen/feature/foliageplacers/SpruceFoliagePlacer trunkHeight Lnet/minecraft/util/valueproviders/IntProvider;

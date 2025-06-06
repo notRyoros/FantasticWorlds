@@ -1,11 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "mod.rat_pack_studios.fantastic_worlds.mixin.client",
+  "package": "mod.rat_pack_studios.fantastic_worlds.client.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
   ],
   "injectors": {
     "defaultRequire": 1
-  }
+  },
+  "mixins": [
+  ]
 }

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:multi_noise",
+  "preset": "overworld",
+  "biomes": [
+    {
+      "biome": "minecraft:plains",
+      "parameters": {
+        "temperature": [0.5, 0.7],
+        "humidity": [0.5, 0.7],
+        "continentalness": [-0.3, 0.5],
+        "erosion": [-0.2, 0.6],
+        "weirdness": [-0.5, 0.5],
+        "depth": 0
+      }
+    },
+    {
+      "biome": "minecraft:river",
+      "parameters": {
+        "temperature": [0.4, 0.6],
+        "humidity": [0.4, 0.6],
+        "continentalness": [-0.2, 0.35],
+        "erosion": [-0.3, 0.6],
+        "weirdness": [-0.5, 0.5],
+        "depth": [-0.07, 0.1]
+      }
+    }
+  ]
+}

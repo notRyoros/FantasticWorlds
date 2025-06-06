@@ -3,7 +3,7 @@
   "id": "fantastic_worlds",
   "version": "${version}",
   "name": "Fantastic Worlds",
-  "description": "A mod all about improving your Minecraft-Experience.\nTweaking your worldgeneration and increasing your worldheight to -128 and 512.",
+  "description": "A mod all about tweaking your World-Generation. Make your Worlds look more beautiful",
   "accessWidener": "fantastic_worlds.accesswidener",
   "authors": ["RAT Pack Studios"],
   "contact": {},
@@ -29,8 +29,8 @@
     }
   ],
   "depends": {
-    "fabricloader": "0.16.14",
+    "fabricloader": ">=0.15.11",
     "fabric": "*",
-    "minecraft": "1.21.5"
+    "minecraft": ">=1.21"
   }
 }

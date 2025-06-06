@@ -35,29 +35,69 @@
               "coordinate": "fantastic_worlds:fantastic_overworld/continents",
               "points": [
                 {
+                  "location": -1.0,
+                  "value": 0.1,
+                  "derivative": 0.0
+                },
+                {
+                  "location": -0.3,
+                  "value": 0.05,
+                  "derivative": -0.03
+                },
+                {
+                  "location": 0.0,
+                  "value": 0.0,
+                  "derivative": 0.0
+                },
+                {
+                  "location": 0.3,
+                  "value": 0.05,
+                  "derivative": 0.03
+                },
+                {
+                  "location": 1.0,
+                  "value": 0.1,
+                  "derivative": 0.0
+                },
+                {
                   "derivative": 0.0,
                   "location": -1.1,
                   "value": 0.044
                 },
                 {
-                  "derivative": 0.0,
                   "location": -1.02,
-                  "value": -0.2222
+                  "value": -0.18,
+                  "derivative": 0.0
                 },
                 {
-                  "derivative": 0.0,
+                  "location": -0.9,
+                  "value": -0.17,
+                  "derivative": 0.04
+                },
+                {
+                  "location": -0.75,
+                  "value": -0.16,
+                  "derivative": 0.05
+                },
+                {
+                  "location": -0.63,
+                  "value": -0.165,
+                  "derivative": 0.1
+                },
+                {
                   "location": -0.51,
-                  "value": -0.2222
+                  "value": -0.18,
+                  "derivative": 0.0
                 },
                 {
-                  "derivative": 0.0,
+                  "derivative": 0.02,
                   "location": -0.44,
-                  "value": -0.12
+                  "value": -0.10
                 },
                 {
-                  "derivative": 0.0,
+                  "derivative": 0.02,
                   "location": -0.18,
-                  "value": -0.12
+                  "value": -0.10
                 },
                 {
                   "derivative": 0.0,
@@ -72,12 +112,12 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.38940096,
+                              "derivative": 0.35,
                               "location": -1.0,
-                              "value": -0.08880186
+                              "value": -0.08
                             },
                             {
-                              "derivative": 0.38940096,
+                              "derivative": 0.35,
                               "location": 1.0,
                               "value": 0.69000006
                             }
@@ -91,12 +131,12 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.37788022,
+                              "derivative": 0.35,
                               "location": -1.0,
-                              "value": -0.115760356
+                              "value": -0.10
                             },
                             {
-                              "derivative": 0.37788022,
+                              "derivative": 0.35,
                               "location": 1.0,
                               "value": 0.6400001
                             }
@@ -110,17 +150,17 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -1.0,
-                              "value": -0.2222
+                              "value": -0.18
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.75,
-                              "value": -0.2222
+                              "value": -0.18
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": -0.65,
                               "value": 0.0
                             },
@@ -130,12 +170,12 @@
                               "value": 2.9802322E-8
                             },
                             {
-                              "derivative": 0.2534563,
+                              "derivative": 0.22,
                               "location": 0.6054547,
                               "value": 2.9802322E-8
                             },
                             {
-                              "derivative": 0.2534563,
+                              "derivative": 0.22,
                               "location": 1.0,
                               "value": 0.100000024
                             }
@@ -149,27 +189,27 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.3
+                              "value": -0.25
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": -0.4,
                               "value": 0.05
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": 0.0,
                               "value": 0.05
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": 0.4,
                               "value": 0.05
                             },
                             {
-                              "derivative": 0.007000001,
+                              "derivative": 0.02,
                               "location": 1.0,
                               "value": 0.060000002
                             }
@@ -183,27 +223,27 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.15
+                              "value": -0.12
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.4,
                               "value": 0.0
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.0,
                               "value": 0.0
                             },
                             {
-                              "derivative": 0.1,
+                              "derivative": 0.08,
                               "location": 0.4,
                               "value": 0.05
                             },
                             {
-                              "derivative": 0.007000001,
+                              "derivative": 0.02,
                               "location": 1.0,
                               "value": 0.060000002
                             }
@@ -217,27 +257,27 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.15
+                              "value": -0.12
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.4,
                               "value": 0.0
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.0,
                               "value": 0.0
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.4,
                               "value": 0.0
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 1.0,
                               "value": 0.0
                             }
@@ -251,27 +291,27 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -1.0,
                               "value": -0.02
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.4,
                               "value": -0.03
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.0,
                               "value": -0.03
                             },
                             {
-                              "derivative": 0.06,
+                              "derivative": 0.05,
                               "location": 0.4,
                               "value": 0.0
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 1.0,
                               "value": 0.0
                             }
@@ -294,12 +334,12 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.38940096,
+                              "derivative": 0.35,
                               "location": -1.0,
-                              "value": -0.08880186
+                              "value": -0.08
                             },
                             {
-                              "derivative": 0.38940096,
+                              "derivative": 0.35,
                               "location": 1.0,
                               "value": 0.69000006
                             }
@@ -313,12 +353,12 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.37788022,
+                              "derivative": 0.35,
                               "location": -1.0,
-                              "value": -0.115760356
+                              "value": -0.10
                             },
                             {
-                              "derivative": 0.37788022,
+                              "derivative": 0.35,
                               "location": 1.0,
                               "value": 0.6400001
                             }
@@ -332,17 +372,17 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -1.0,
-                              "value": -0.2222
+                              "value": -0.18
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.75,
-                              "value": -0.2222
+                              "value": -0.18
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": -0.65,
                               "value": 0.0
                             },
@@ -352,12 +392,12 @@
                               "value": 2.9802322E-8
                             },
                             {
-                              "derivative": 0.2534563,
+                              "derivative": 0.22,
                               "location": 0.6054547,
                               "value": 2.9802322E-8
                             },
                             {
-                              "derivative": 0.2534563,
+                              "derivative": 0.22,
                               "location": 1.0,
                               "value": 0.100000024
                             }
@@ -371,27 +411,27 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.3
+                              "value": -0.25
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": -0.4,
                               "value": 0.05
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": 0.0,
                               "value": 0.05
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": 0.4,
                               "value": 0.05
                             },
                             {
-                              "derivative": 0.007000001,
+                              "derivative": 0.02,
                               "location": 1.0,
                               "value": 0.060000002
                             }
@@ -405,27 +445,27 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.15
+                              "value": -0.12
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.4,
                               "value": 0.0
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.0,
                               "value": 0.0
                             },
                             {
-                              "derivative": 0.1,
+                              "derivative": 0.08,
                               "location": 0.4,
                               "value": 0.05
                             },
                             {
-                              "derivative": 0.007000001,
+                              "derivative": 0.02,
                               "location": 1.0,
                               "value": 0.060000002
                             }
@@ -439,27 +479,27 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.15
+                              "value": -0.12
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.4,
                               "value": 0.0
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.0,
                               "value": 0.0
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.4,
                               "value": 0.0
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 1.0,
                               "value": 0.0
                             }
@@ -473,27 +513,27 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -1.0,
                               "value": -0.02
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.4,
                               "value": -0.03
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.0,
                               "value": -0.03
                             },
                             {
-                              "derivative": 0.06,
+                              "derivative": 0.05,
                               "location": 0.4,
                               "value": 0.0
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 1.0,
                               "value": 0.0
                             }
@@ -516,12 +556,12 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.38940096,
+                              "derivative": 0.35,
                               "location": -1.0,
-                              "value": -0.08880186
+                              "value": -0.08
                             },
                             {
-                              "derivative": 0.38940096,
+                              "derivative": 0.35,
                               "location": 1.0,
                               "value": 0.69000006
                             }
@@ -535,12 +575,12 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.37788022,
+                              "derivative": 0.35,
                               "location": -1.0,
-                              "value": -0.115760356
+                              "value": -0.10
                             },
                             {
-                              "derivative": 0.37788022,
+                              "derivative": 0.35,
                               "location": 1.0,
                               "value": 0.6400001
                             }
@@ -554,17 +594,17 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -1.0,
-                              "value": -0.2222
+                              "value": -0.18
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.75,
-                              "value": -0.2222
+                              "value": -0.18
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": -0.65,
                               "value": 0.0
                             },
@@ -574,12 +614,12 @@
                               "value": 2.9802322E-8
                             },
                             {
-                              "derivative": 0.2534563,
+                              "derivative": 0.22,
                               "location": 0.6054547,
                               "value": 2.9802322E-8
                             },
                             {
-                              "derivative": 0.2534563,
+                              "derivative": 0.22,
                               "location": 1.0,
                               "value": 0.100000024
                             }
@@ -593,27 +633,27 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.25
+                              "value": -0.22
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": -0.4,
                               "value": 0.05
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": 0.0,
                               "value": 0.05
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": 0.4,
                               "value": 0.05
                             },
                             {
-                              "derivative": 0.007000001,
+                              "derivative": 0.02,
                               "location": 1.0,
                               "value": 0.060000002
                             }
@@ -627,27 +667,27 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.1
+                              "value": -0.08
                             },
                             {
-                              "derivative": 0.01,
+                              "derivative": 0.03,
                               "location": -0.4,
                               "value": 0.001
                             },
                             {
-                              "derivative": 0.01,
+                              "derivative": 0.03,
                               "location": 0.0,
                               "value": 0.003
                             },
                             {
-                              "derivative": 0.094000004,
+                              "derivative": 0.08,
                               "location": 0.4,
                               "value": 0.05
                             },
                             {
-                              "derivative": 0.007000001,
+                              "derivative": 0.02,
                               "location": 1.0,
                               "value": 0.060000002
                             }
@@ -661,17 +701,17 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.1
+                              "value": -0.08
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.4,
                               "value": 0.01
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.0,
                               "value": 0.01
                             },
@@ -681,7 +721,7 @@
                               "value": 0.03
                             },
                             {
-                              "derivative": 0.049,
+                              "derivative": 0.04,
                               "location": 1.0,
                               "value": 0.1
                             }
@@ -695,27 +735,27 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -1.0,
                               "value": -0.02
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.4,
                               "value": -0.03
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.0,
                               "value": -0.03
                             },
                             {
-                              "derivative": 0.12,
+                              "derivative": 0.10,
                               "location": 0.4,
                               "value": 0.03
                             },
                             {
-                              "derivative": 0.049,
+                              "derivative": 0.04,
                               "location": 1.0,
                               "value": 0.1
                             }
@@ -743,12 +783,12 @@
                               "value": 0.20235021
                             },
                             {
-                              "derivative": 0.5138249,
+                              "derivative": 0.48,
                               "location": 0.0,
                               "value": 0.7161751
                             },
                             {
-                              "derivative": 0.5138249,
+                              "derivative": 0.48,
                               "location": 1.0,
                               "value": 1.23
                             }
@@ -767,12 +807,12 @@
                               "value": 0.2
                             },
                             {
-                              "derivative": 0.43317974,
+                              "derivative": 0.40,
                               "location": 0.0,
                               "value": 0.44682026
                             },
                             {
-                              "derivative": 0.43317974,
+                              "derivative": 0.40,
                               "location": 1.0,
                               "value": 0.88
                             }
@@ -791,12 +831,12 @@
                               "value": 0.2
                             },
                             {
-                              "derivative": 0.3917051,
+                              "derivative": 0.35,
                               "location": 0.0,
                               "value": 0.30829495
                             },
                             {
-                              "derivative": 0.3917051,
+                              "derivative": 0.35,
                               "location": 1.0,
                               "value": 0.70000005
                             }
@@ -810,27 +850,27 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.25
+                              "value": -0.22
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": -0.4,
                               "value": 0.35
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": 0.0,
                               "value": 0.35
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": 0.4,
                               "value": 0.35
                             },
                             {
-                              "derivative": 0.049000014,
+                              "derivative": 0.04,
                               "location": 1.0,
                               "value": 0.42000002
                             }
@@ -844,27 +884,27 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.1
+                              "value": -0.08
                             },
                             {
-                              "derivative": 0.07,
+                              "derivative": 0.06,
                               "location": -0.4,
                               "value": 0.0069999998
                             },
                             {
-                              "derivative": 0.07,
+                              "derivative": 0.06,
                               "location": 0.0,
                               "value": 0.021
                             },
                             {
-                              "derivative": 0.658,
+                              "derivative": 0.55,
                               "location": 0.4,
                               "value": 0.35
                             },
                             {
-                              "derivative": 0.049000014,
+                              "derivative": 0.04,
                               "location": 1.0,
                               "value": 0.42000002
                             }
@@ -878,17 +918,17 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.1
+                              "value": -0.08
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.4,
                               "value": 0.01
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.0,
                               "value": 0.01
                             },
@@ -898,7 +938,7 @@
                               "value": 0.03
                             },
                             {
-                              "derivative": 0.049,
+                              "derivative": 0.04,
                               "location": 1.0,
                               "value": 0.1
                             }
@@ -912,17 +952,17 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.1
+                              "value": -0.08
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.4,
                               "value": 0.01
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.0,
                               "value": 0.01
                             },
@@ -932,7 +972,7 @@
                               "value": 0.03
                             },
                             {
-                              "derivative": 0.049,
+                              "derivative": 0.04,
                               "location": 1.0,
                               "value": 0.1
                             }
@@ -948,7 +988,7 @@
                             {
                               "derivative": 0.0,
                               "location": -1.0,
-                              "value": -0.1
+                              "value": -0.08
                             },
                             {
                               "derivative": 0.0,
@@ -957,17 +997,17 @@
                                 "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                                 "points": [
                                   {
-                                    "derivative": 0.5,
+                                    "derivative": 0.4,
                                     "location": -1.0,
-                                    "value": -0.1
+                                    "value": -0.08
                                   },
                                   {
-                                    "derivative": 0.0,
+                                    "derivative": 0.02,
                                     "location": -0.4,
                                     "value": 0.01
                                   },
                                   {
-                                    "derivative": 0.0,
+                                    "derivative": 0.02,
                                     "location": 0.0,
                                     "value": 0.01
                                   },
@@ -977,7 +1017,7 @@
                                     "value": 0.03
                                   },
                                   {
-                                    "derivative": 0.049,
+                                    "derivative": 0.04,
                                     "location": 1.0,
                                     "value": 0.1
                                   }
@@ -1001,7 +1041,7 @@
                             {
                               "derivative": 0.0,
                               "location": -1.0,
-                              "value": -0.1
+                              "value": -0.08
                             },
                             {
                               "derivative": 0.0,
@@ -1010,17 +1050,17 @@
                                 "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                                 "points": [
                                   {
-                                    "derivative": 0.5,
+                                    "derivative": 0.4,
                                     "location": -1.0,
-                                    "value": -0.1
+                                    "value": -0.08
                                   },
                                   {
-                                    "derivative": 0.0,
+                                    "derivative": 0.02,
                                     "location": -0.4,
                                     "value": 0.01
                                   },
                                   {
-                                    "derivative": 0.0,
+                                    "derivative": 0.02,
                                     "location": 0.0,
                                     "value": 0.01
                                   },
@@ -1030,7 +1070,7 @@
                                     "value": 0.03
                                   },
                                   {
-                                    "derivative": 0.049,
+                                    "derivative": 0.04,
                                     "location": 1.0,
                                     "value": 0.1
                                   }
@@ -1052,17 +1092,17 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.1
+                              "value": -0.08
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.4,
                               "value": 0.01
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.0,
                               "value": 0.01
                             },
@@ -1072,7 +1112,7 @@
                               "value": 0.03
                             },
                             {
-                              "derivative": 0.049,
+                              "derivative": 0.04,
                               "location": 1.0,
                               "value": 0.1
                             }
@@ -1086,27 +1126,27 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -1.0,
                               "value": -0.02
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.4,
                               "value": -0.03
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.0,
                               "value": -0.03
                             },
                             {
-                              "derivative": 0.12,
+                              "derivative": 0.10,
                               "location": 0.4,
                               "value": 0.03
                             },
                             {
-                              "derivative": 0.049,
+                              "derivative": 0.04,
                               "location": 1.0,
                               "value": 0.1
                             }
@@ -1134,12 +1174,12 @@
                               "value": 0.34792626
                             },
                             {
-                              "derivative": 0.5760369,
+                              "derivative": 0.55,
                               "location": 0.0,
                               "value": 0.9239631
                             },
                             {
-                              "derivative": 0.5760369,
+                              "derivative": 0.55,
                               "location": 1.0,
                               "value": 1.5
                             }
@@ -1158,12 +1198,12 @@
                               "value": 0.2
                             },
                             {
-                              "derivative": 0.4608295,
+                              "derivative": 0.43,
                               "location": 0.0,
                               "value": 0.5391705
                             },
                             {
-                              "derivative": 0.4608295,
+                              "derivative": 0.43,
                               "location": 1.0,
                               "value": 1.0
                             }
@@ -1182,12 +1222,12 @@
                               "value": 0.2
                             },
                             {
-                              "derivative": 0.4608295,
+                              "derivative": 0.43,
                               "location": 0.0,
                               "value": 0.5391705
                             },
                             {
-                              "derivative": 0.4608295,
+                              "derivative": 0.43,
                               "location": 1.0,
                               "value": 1.0
                             }
@@ -1201,27 +1241,27 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.2
+                              "value": -0.18
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": -0.4,
                               "value": 0.5
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": 0.0,
                               "value": 0.5
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.05,
                               "location": 0.4,
                               "value": 0.5
                             },
                             {
-                              "derivative": 0.070000015,
+                              "derivative": 0.06,
                               "location": 1.0,
                               "value": 0.6
                             }
@@ -1235,27 +1275,27 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.05
+                              "value": -0.04
                             },
                             {
-                              "derivative": 0.099999994,
+                              "derivative": 0.08,
                               "location": -0.4,
                               "value": 0.01
                             },
                             {
-                              "derivative": 0.099999994,
+                              "derivative": 0.08,
                               "location": 0.0,
                               "value": 0.03
                             },
                             {
-                              "derivative": 0.94,
+                              "derivative": 0.85,
                               "location": 0.4,
                               "value": 0.5
                             },
                             {
-                              "derivative": 0.070000015,
+                              "derivative": 0.06,
                               "location": 1.0,
                               "value": 0.6
                             }
@@ -1269,17 +1309,17 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.05
+                              "value": -0.04
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.4,
                               "value": 0.01
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.0,
                               "value": 0.01
                             },
@@ -1289,7 +1329,7 @@
                               "value": 0.03
                             },
                             {
-                              "derivative": 0.049,
+                              "derivative": 0.04,
                               "location": 1.0,
                               "value": 0.1
                             }
@@ -1303,17 +1343,17 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.05
+                              "value": -0.04
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.4,
                               "value": 0.01
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.0,
                               "value": 0.01
                             },
@@ -1323,7 +1363,7 @@
                               "value": 0.03
                             },
                             {
-                              "derivative": 0.049,
+                              "derivative": 0.04,
                               "location": 1.0,
                               "value": 0.1
                             }
@@ -1339,7 +1379,7 @@
                             {
                               "derivative": 0.0,
                               "location": -1.0,
-                              "value": -0.05
+                              "value": -0.04
                             },
                             {
                               "derivative": 0.0,
@@ -1348,17 +1388,17 @@
                                 "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                                 "points": [
                                   {
-                                    "derivative": 0.5,
+                                    "derivative": 0.4,
                                     "location": -1.0,
-                                    "value": -0.05
+                                    "value": -0.04
                                   },
                                   {
-                                    "derivative": 0.0,
+                                    "derivative": 0.02,
                                     "location": -0.4,
                                     "value": 0.01
                                   },
                                   {
-                                    "derivative": 0.0,
+                                    "derivative": 0.02,
                                     "location": 0.0,
                                     "value": 0.01
                                   },
@@ -1368,7 +1408,7 @@
                                     "value": 0.03
                                   },
                                   {
-                                    "derivative": 0.049,
+                                    "derivative": 0.04,
                                     "location": 1.0,
                                     "value": 0.1
                                   }
@@ -1392,7 +1432,7 @@
                             {
                               "derivative": 0.0,
                               "location": -1.0,
-                              "value": -0.05
+                              "value": -0.04
                             },
                             {
                               "derivative": 0.0,
@@ -1401,17 +1441,17 @@
                                 "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                                 "points": [
                                   {
-                                    "derivative": 0.5,
+                                    "derivative": 0.4,
                                     "location": -1.0,
-                                    "value": -0.05
+                                    "value": -0.04
                                   },
                                   {
-                                    "derivative": 0.0,
+                                    "derivative": 0.02,
                                     "location": -0.4,
                                     "value": 0.01
                                   },
                                   {
-                                    "derivative": 0.0,
+                                    "derivative": 0.02,
                                     "location": 0.0,
                                     "value": 0.01
                                   },
@@ -1421,7 +1461,7 @@
                                     "value": 0.03
                                   },
                                   {
-                                    "derivative": 0.049,
+                                    "derivative": 0.04,
                                     "location": 1.0,
                                     "value": 0.1
                                   }
@@ -1443,17 +1483,17 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.5,
+                              "derivative": 0.4,
                               "location": -1.0,
-                              "value": -0.05
+                              "value": -0.04
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.4,
                               "value": 0.01
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.0,
                               "value": 0.01
                             },
@@ -1463,7 +1503,7 @@
                               "value": 0.03
                             },
                             {
-                              "derivative": 0.049,
+                              "derivative": 0.04,
                               "location": 1.0,
                               "value": 0.1
                             }
@@ -1477,17 +1517,17 @@
                           "coordinate": "fantastic_worlds:fantastic_overworld/ridges_folded",
                           "points": [
                             {
-                              "derivative": 0.015,
+                              "derivative": 0.02,
                               "location": -1.0,
                               "value": -0.02
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": -0.4,
                               "value": 0.01
                             },
                             {
-                              "derivative": 0.0,
+                              "derivative": 0.02,
                               "location": 0.0,
                               "value": 0.01
                             },
@@ -1497,7 +1537,7 @@
                               "value": 0.03
                             },
                             {
-                              "derivative": 0.049,
+                              "derivative": 0.04,
                               "location": 1.0,
                               "value": 0.1
                             }
@@ -1521,3 +1561,4 @@
     }
   }
 }
+

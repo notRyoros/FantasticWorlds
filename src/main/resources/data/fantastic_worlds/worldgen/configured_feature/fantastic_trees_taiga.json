@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "fantastic_worlds:fantastic_spruce_checked",
+    "features": [
+      {
+        "chance": 0,
+        "feature": "fantastic_worlds:fantastic_pine_checked"
+      }
+    ]
+  }
+}

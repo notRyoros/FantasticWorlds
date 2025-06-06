@@ -1,25 +1,15 @@
 {
   "type": "minecraft:add",
   "argument1": {
-    "type": "minecraft:add",
-    "argument1": {
-      "type": "minecraft:y_clamped_gradient",
-      "from_value": 1.5,
-      "from_y": -128,
-      "to_value": -1.5,
-      "to_y": 512
-    },
-    "argument2": {
-      "type": "minecraft:y_clamped_gradient",
-      "from_value": 0.5,
-      "from_y": 40,
-      "to_value": -0.5,
-      "to_y": 80
-    }
+    "type": "minecraft:y_clamped_gradient",
+    "from_value": 2.5,
+    "from_y": -128,
+    "to_value": -2.5,
+    "to_y": 512
   },
   "argument2": {
     "type": "minecraft:mul",
     "argument1": "fantastic_worlds:fantastic_overworld/offset",
-    "argument2": 1.5
+    "argument2": 1.95
   }
 }

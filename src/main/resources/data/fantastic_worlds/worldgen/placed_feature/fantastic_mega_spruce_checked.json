@@ -1,0 +1,18 @@
+{
+  "feature": "fantastic_worlds:fantastic_mega_spruce",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "feature": "fantastic_worlds:fantastic_mega_spruce",
+        "state": {
+          "Name": "minecraft:spruce_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      }
+    }
+  ]
+}
