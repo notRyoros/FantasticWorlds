@@ -1,7 +1,7 @@
 plugins {
     id 'eclipse'
-    id 'idea'
-    id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    id 'org.spongepowered.mixin' version '0.7.+'
 }
 
 group = mod_group_id
@@ -68,9 +68,12 @@ repositories {
 
 dependencies {
 
-    minecraft "net.minecraftforge:forge:1.21-${forge_version}"
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${project.forge_version}"
 
     implementation('net.sf.jopt-simple:jopt-simple:5.0.4') { version { strictly '5.0.4' } }
+
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
 }
 
 // See https://docs.gradle.org/current/dsl/org.gradle.language.jvm.tasks.ProcessResources.html
@@ -109,4 +112,13 @@ sourceSets.each {
     def dir = layout.buildDirectory.dir("sourcesSets/$it.name")
     it.output.resourcesDir = dir
     it.java.destinationDirectory = dir
+}
+
+mixin {
+    // MixinGradle Settings
+    add sourceSets.main, 'fantastic_worlds.mixins.refmap.json'
+    config 'fantastic_worlds.mixins.json'
+
+    debug.verbose = true
+    debug.export = true
 }
