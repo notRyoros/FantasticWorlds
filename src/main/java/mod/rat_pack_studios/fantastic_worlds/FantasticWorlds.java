@@ -21,17 +21,7 @@ public class FantasticWorlds {
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public FantasticWorlds() {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        MinecraftForge.EVENT_BUS.register(this);
-
-        // Register config
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
-
-        // Register lifecycle event listeners
-        modEventBus.addListener(this::commonSetup);
-
-        // Client setup event is handled in the nested ClientModEvents class
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
