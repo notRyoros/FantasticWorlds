@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "mod.rat_pack_studios.fantastic_worlds.fabric.mixin",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "fantastic_worlds.refmap.json",
+  "mixins":
+  [
+
+  ],
+  "injectors":
+  {
+    "defaultRequire": 1
+  },
+  "client":
+  [
+
+  ]
+}

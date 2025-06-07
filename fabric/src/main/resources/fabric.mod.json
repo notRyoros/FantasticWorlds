@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "eiv",
+  "version": "${mod_version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors":
+  [
+    "${mod_authors}"
+  ],
+  "contact":
+  {
+
+  },
+  "license": "${mod_license}",
+  "icon": "assets/fantastic_worlds/icon.png",
+  "environment": "*",
+  "entrypoints":
+  {
+    "main":
+    [
+      "mod.rat_pack_studios.fantastic_worlds.fabric.FabricFW"
+    ],
+    "client":
+    [
+      "mod.rat_pack_studios.fantastic_worlds.fabric.FabricFWClient"
+    ]
+  },
+  "mixins":
+  [
+    "fantastic_worlds.mixins.json",
+    "fantastic_worlds.fabric.mixins.json"
+  ],
+  "accessWidener": "fantastic_worlds.accesswidener",
+  "depends":
+  {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.5",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests":
+  {
+
+  }
+}

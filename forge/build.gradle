@@ -1,0 +1,119 @@
+plugins
+{
+    id "net.minecraftforge.gradle" version "6.+"
+    id 'org.spongepowered.mixin' version '0.7.+'
+}
+
+base
+{
+    archivesName.set("${mod_id}-forge")
+}
+
+minecraft
+{
+    mappings channel: "official", version: minecraft_version
+    reobf = false
+    copyIdeResources = true
+    
+    if(file('src/main/resources/META-INF/accesstransformer.cfg').exists())
+    {
+        accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+    }
+    
+    // Default run configurations.
+    // These can be tweaked, removed, or duplicated as needed.
+    runs
+    {
+        // applies to all the run configs below
+        configureEach
+        {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+        }
+        
+        client
+        {
+            property 'forge.enabledGameTestNamespaces', mod_id
+        }
+        
+        server
+        {
+            property 'forge.enabledGameTestNamespaces', mod_id
+            args '--nogui'
+        }
+        
+        gameTestServer
+        {
+            property 'forge.enabledGameTestNamespaces', mod_id
+        }
+        
+        data
+        {
+            workingDirectory project.file('run-data')
+            args '--mod', mod_id, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+        }
+    }
+}
+
+dependencies
+{
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    
+    compileOnly project(":Common")
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
+
+// IntelliJ no longer downloads javadocs and sources by default.
+// This tells Gradle to force IDEA to do it.
+idea.module { downloadJavadoc = downloadSources = true }
+
+mixin {
+    // MixinGradle Settings
+    add sourceSets.main, "${mod_id}.refmap.json"
+    config "${mod_id}.mixins.json"
+    config "${mod_id}.forge.mixins.json"
+}
+
+jar {
+    
+    manifest {
+        attributes([
+        "MixinConfigs": "${mod_id}.mixins.json" + "," + "${mod_id}.forge.mixins.json"
+        ])
+    }
+    
+}
+
+tasks.withType(JavaCompile).configureEach
+{
+    source(project(":Common").sourceSets.main.allSource)
+}
+
+tasks.withType(Javadoc).configureEach
+{
+    source(project(":Common").sourceSets.main.allJava)
+}
+
+tasks.named("sourcesJar", Jar)
+{
+    from(project(":Common").sourceSets.main.allSource)
+}
+
+processResources
+{
+    from project(":Common").sourceSets.main.resources
+}
+
+sourceSets.each
+{
+    def dir = layout.buildDirectory.dir("sourceSets/$it.name")
+    it.output.resourcesDir = dir
+    it.java.destinationDirectory = dir
+}
