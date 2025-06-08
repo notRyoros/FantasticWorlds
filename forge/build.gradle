@@ -101,10 +101,10 @@ tasks.withType(Javadoc).configureEach
     source(project(":Common").sourceSets.main.allJava)
 }
 
-tasks.named("sourcesJar", Jar)
-{
-    from(project(":Common").sourceSets.main.allSource)
-}
+//tasks.named("sourcesJar", Jar)
+//{
+//    from(project(":Common").sourceSets.main.allSource)
+//}
 
 processResources
 {
