@@ -10,7 +10,7 @@ buildscript
     
     dependencies
     {
-//        classpath 'gradle.plugin.org.jetbrains.gradle.plugin.idea-ext:gradle-idea-ext:1.1.7' // Required for NeoGradle
+        classpath 'gradle.plugin.org.jetbrains.gradle.plugin.idea-ext:gradle-idea-ext:1.1.7' // Required for NeoGradle
     }
 }
 
@@ -46,17 +46,17 @@ subprojects
         forge_version: forge_version, forge_version_range: forge_version_range,
         forge_loader_version_range: forge_loader_version_range,
         forge_loader_version: forge_loader_version,
-//        neoforge_version: neoforge_version, neoforge_version_range: neoforge_version_range,
-//        neoforge_loader_version_range: neoforge_loader_version_range,
+        neoforge_version: neoforge_version, neoforge_version_range: neoforge_version_range,
+        neoforge_loader_version_range: neoforge_loader_version_range,
         mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
         mod_authors: mod_authors, mod_description: mod_description,
         ]
         
         inputs.properties replaceProperties
         
-        filesMatching( [ 'fabric.mod.json', 'META-INF/mods.toml', /*'META-INF/neoforge/mods.toml',*/ 'pack.mcmeta' ] )
+        filesMatching( [ 'fabric.mod.json', 'META-INF/mods.toml', 'META-INF/neoforge/mods.toml', 'pack.mcmeta' ] )
         {
-            expand replace + [ project: project ]
+            expand replaceProperties + [ project: project ]
         }
     }
     

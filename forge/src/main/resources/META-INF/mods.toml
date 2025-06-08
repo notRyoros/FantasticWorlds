@@ -1,7 +1,6 @@
 modLoader="javafml"
 loaderVersion="${forge_loader_version}"
 license="${mod_license}"
-fantastic_worlds="mod.rat_pack_studios.fantastic_worlds.common.builtin.BuiltInFWIntegration"
 
 [[mods]]
 modId="${mod_id}"
