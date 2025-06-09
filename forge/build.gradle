@@ -64,17 +64,25 @@ dependencies
     compileOnly project(":Common")
 }
 
-sourceSets.main.resources { srcDir 'src/generated/resources' }
+sourceSets.main.resources
+{
+    srcDir 'src/generated/resources'
+}
 
-tasks.withType(JavaCompile).configureEach {
+tasks.withType(JavaCompile).configureEach
+{
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
 
 // IntelliJ no longer downloads javadocs and sources by default.
 // This tells Gradle to force IDEA to do it.
-idea.module { downloadJavadoc = downloadSources = true }
+idea.module
+{
+    downloadJavadoc = downloadSources = true
+}
 
-mixin {
+mixin
+{
     // MixinGradle Settings
     add sourceSets.main, "${mod_id}.refmap.json"
     config "${mod_id}.mixins.json"
@@ -101,10 +109,10 @@ tasks.withType(Javadoc).configureEach
     source(project(":Common").sourceSets.main.allJava)
 }
 
-tasks.named("sourcesJar", Jar)
-{
-    from(project(":Common").sourceSets.main.allSource)
-}
+//tasks.named("sourcesJar", Jar)
+//{
+//    from(project(":Common").sourceSets.main.allSource)
+//}
 
 processResources
 {

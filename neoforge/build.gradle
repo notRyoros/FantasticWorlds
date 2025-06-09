@@ -1,12 +1,13 @@
-plugins {
+plugins
+{
     id 'net.neoforged.gradle.userdev' version '7.+'
     id 'net.neoforged.gradle.mixin' version '7.+'
-    
 }
 
 
 
-base {
+base
+{
     archivesName.set("${mod_id}-neoforge")
 }
 
@@ -45,10 +46,10 @@ tasks.withType(Javadoc).excludingNeoTasks().configureEach
     source(project(":Common").sourceSets.main.allJava)
 }
 
-tasks.named("sourcesJar", Jar)
-{
-    from(project(":Common").sourceSets.main.allSource)
-}
+//tasks.named("sourcesJar", Jar)
+//{
+//    from(project(":Common").sourceSets.main.allSource)
+//}
 
 tasks.withType(ProcessResources).excludingNeoTasks().configureEach
 {

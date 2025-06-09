@@ -3,6 +3,8 @@ import mod.rat_pack_studios.fantastic_worlds.common.CommonFW;
 import mod.rat_pack_studios.fantastic_worlds.common.CommonFWClient;
 import net.fabricmc.api.ClientModInitializer;
 
+import java.util.Map;
+
 public class FabricFWClient implements ClientModInitializer
 {
     private static FabricFWClient instance;
